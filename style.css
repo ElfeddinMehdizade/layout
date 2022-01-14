@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    background-color:blue ;
+    justify-content: space-between;
+    align-items:center ;
+}
+.logo{
+    width: 170;
+    object-fit: cover;
+}
+
+nav>ul{
+   list-style-type: none;
+   display: flex;
+   
+}
+nav>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    
+}
+
+section{
+    display: flex;
+    border: 1px solid red;
+    justify-content: space-between;
+    min-height: 100vh;
+}
